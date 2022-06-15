@@ -186,6 +186,15 @@ body {
   .c2-description, .c3-description {
     width: 233px;
   }
+  .card1 {
+    border-radius: 8px 0 0 8px;
+  }
+  .card2 {
+    border-radius: 0;
+  }
+  .card3 {
+    border-radius: 0 8px 8px 0;
+  }
   .attribution {
     width: 300px;
     font-size: 10px;
