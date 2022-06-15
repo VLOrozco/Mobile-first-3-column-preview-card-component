@@ -21,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 442px;
   background-color: #FFF;
 
   font-family: 'Lexend Deca';
@@ -43,7 +44,6 @@ body {
 
 /* CARD | LAYOUT */
 .card {
-  height: 442px;
   width: 100%;
 }
 .card1, .card2 {
@@ -102,7 +102,6 @@ body {
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0px;
-  text-align: left;
   text-transform: uppercase;
   color: #F2F2F2;
 }
@@ -112,8 +111,6 @@ body {
   line-height: 25px;
   letter-spacing: 0.7px;
   color: #FFFFFF;
-  mix-blend-mode: normal;
-  opacity: 0.75;
 }
 .card-button {
   font-size: 14.7px;
@@ -121,7 +118,6 @@ body {
   line-height: 25px;
   letter-spacing: 0.7px;
   color: #E28625;
-  opacity: 1;
   cursor: pointer;
 }
   .btn1 {
@@ -156,6 +152,9 @@ body {
 
 /* 4. MEDIA QUERY */
 @media screen and (min-width: 700px) {
+  body {
+    height: 500px;
+  }
   .container {
     flex-direction: row;
     height: 500px;
@@ -174,7 +173,7 @@ body {
   }
     .card-content {
       width: 220px;
-      margin-left: 48px;
+      margin-left: 0;
       margin-top: 48.5px;
     }
     .card-description {
