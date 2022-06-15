@@ -133,7 +133,7 @@ body {
   .btn3 {
     color: #004140;
   }
-  /* BUTTON :HOVER STATES | STYLES */
+  /* BUTTON :HOVER & :FOCUS STATES | STYLES */
   .card-button:hover, .card-button:focus {
     background-color: transparent;
     border: 2px solid #FFF;
