@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 /* ========================================================================= */
@@ -45,13 +46,12 @@ body {
   height: 442px;
   width: 100%;
 }
-.card1 {
+.card1, .card2 {
   background-color: #E28625;
   border-radius: 8px;
 }
 .card2 {
   background-color: #006971;
-  border-radius: 8px;
 }
 .card3 {
   background-color: #004140;
@@ -86,10 +86,11 @@ body {
 /* ATTRIBUTION | LAYOUT */
 .attribution {
   position: absolute;
-  bottom: -428px;
   width: 100%;
   text-align: center;
+  bottom: 8px;
 }
+
 /* ========================================================================= */
 
 /* 3. TYPOGRAPHY */
@@ -121,7 +122,25 @@ body {
   letter-spacing: 0.7px;
   color: #E28625;
   opacity: 1;
+  cursor: pointer;
 }
+  .btn1 {
+    color: #E28625;
+  }
+  .btn2 {
+    color: #006971;
+  }
+  .btn3 {
+    color: #004140;
+  }
+  /* BUTTON :HOVER STATES | STYLES */
+  .card-button:hover, .card-button:focus {
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+
+  }
+
 
 /* ATTRIBUTION | TYPOGRAPHY */
 .attribution {
@@ -136,4 +155,43 @@ body {
 /* ========================================================================= */
 
 /* 4. MEDIA QUERY */
+@media screen and (min-width: 700px) {
+  .container {
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+  /* CARD | LAYOUT */
+  .card {
+    height: 500px;
+    width: 307px;
+  }
+  .card1, .card2, .card3 {
+    height: 100vh;
+  }
+    .card-content {
+      width: 220px;
+      margin-left: 48px;
+      margin-top: 48.5px;
+    }
+    .card-description {
+      width: 220px;
+      margin-top: -1px;
+    }
+    .card-button {
+      margin-top: 58px;
+    }
+  .c2-description, .c3-description {
+    width: 225px;
+  }
+  .attribution {
+    width: 300px;
+    bottom: 10px;
+    font-size: 10px;
+    right: 3px;
+  }
 
+
+
+
+}
