@@ -21,24 +21,109 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-
 }
 
+/* flexbox */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
 
 /* ========================================================================= */
 
 /* 2. LAYOUT */
 
+/* CARD | LAYOUT */
+.card {
+  height: 442px;
+  width: 375px;
+}
+.card1-c2 {
+  background-color: #E28625;
+}
+.card1 {
+  background-color: #E28625;
+  border-radius: 8px;
+}
+.card2 {
+  background-color: #006971;
+  border-radius: 8px;
+}
+.card3 {
+  background-color: #004140;
+  border-radius: 0px 0px 8px 8px;
+}
+  .card-content {
+    margin-left: 49px;
+    width: 231px;
+  }
 
+/* CARD CONTENT | LAYOUT */
+.card-title {
+  height: 48px;
+  width: 99px;
+}
+.card-description {
+  height: 125px;
+  width: 231px;
+}
+.card-button {
+  height: 48px;
+  width: 146px;
+  border-radius: 25px;
+  border: none;
+}
 
+/* ATTRIBUTION | LAYOUT */
+.attribution {
+  position: absolute;
+  bottom: -420px;
+  width: 100%;
+  text-align: center;
+}
 /* ========================================================================= */
 
 /* 3. TYPOGRAPHY */
+
+/* CARD CONTENT | TYPOGRAPHY */
+.card-title {
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+.card-description {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.card-button {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #E28625;
+}
+
+/* ATTRIBUTION | TYPOGRAPHY */
 .attribution {
   font-size: 11px; text-align: center;
+  color: lightgrey;
 }
   .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: lightseagreen; 
   }
 
 
