@@ -48,8 +48,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-responsive-profile-card-component.git)
-- Live Site URL: [Moble-first-3-column-preview-card-component](https://vlorozco.github.io/Mobile-first-responsive-profile-card-component/)
+- Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-3-column-preview-card-component.git)
+- Live Site URL: [Moble-first-3-column-preview-card-component](https://vlorozco.github.io/Mobile-first-3-column-preview-card-component/)
 
 ---
 ## Author
