@@ -170,7 +170,7 @@ body {
     align-items: center;
   }
   .card1, .card2, .card3 {
-    height: 100vh;
+    height: 500px;
   }
     .card-content {
       width: 220px;
