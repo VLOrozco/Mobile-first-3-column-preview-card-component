@@ -21,14 +21,19 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: #FFF;
+
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 300;
 }
 
 /* flexbox */
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ========================================================================= */
@@ -38,10 +43,7 @@ body {
 /* CARD | LAYOUT */
 .card {
   height: 442px;
-  width: 375px;
-}
-.card1-c2 {
-  background-color: #E28625;
+  width: 100%;
 }
 .card1 {
   background-color: #E28625;
@@ -56,30 +58,35 @@ body {
   border-radius: 0px 0px 8px 8px;
 }
   .card-content {
+    width: 280px;
     margin-left: 49px;
-    width: 231px;
+    margin-top: 46.5px;
   }
 
 /* CARD CONTENT | LAYOUT */
 .card-title {
   height: 48px;
   width: 99px;
+  margin-top: 31.5px;
+  margin-bottom: 25px;
 }
 .card-description {
   height: 125px;
-  width: 231px;
+  width: 250px;
+  margin-bottom: 25px;
 }
 .card-button {
   height: 48px;
   width: 146px;
   border-radius: 25px;
   border: none;
+  margin-bottom: 45px;
 }
 
 /* ATTRIBUTION | LAYOUT */
 .attribution {
   position: absolute;
-  bottom: -420px;
+  bottom: -428px;
   width: 100%;
   text-align: center;
 }
@@ -91,7 +98,7 @@ body {
 .card-title {
   font-family: Big Shoulders Display;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 48px;
   letter-spacing: 0px;
   text-align: left;
@@ -99,22 +106,21 @@ body {
   color: #F2F2F2;
 }
 .card-description {
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
+  font-size: 15.5px;
+  font-weight: 200;
   line-height: 25px;
+  letter-spacing: 0.7px;
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.75;
 }
 .card-button {
-  font-family: 'Lexend Deca';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
+  font-size: 14.7px;
+  font-weight: 300;
   line-height: 25px;
+  letter-spacing: 0.7px;
   color: #E28625;
+  opacity: 1;
 }
 
 /* ATTRIBUTION | TYPOGRAPHY */
