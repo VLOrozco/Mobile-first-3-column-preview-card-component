@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap'); /* font-family: 'Big Shoulders Display', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap'); /* font-family: 'Lexend Deca', sans-serif; */
 
 /* ========================================================================= */
+
+/* MOBILE FIRST RESPONSIVE DESIGN */
 
 /* TABLE OF CONTENTS */
 /* 
@@ -13,7 +17,12 @@
 /* ========================================================================= */
 
 /* 1. GLOBAL */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 
+}
 
 
 /* ========================================================================= */
