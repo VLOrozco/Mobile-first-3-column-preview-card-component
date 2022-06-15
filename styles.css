@@ -107,7 +107,7 @@ body {
 }
 .card-description {
   font-size: 15.5px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 25px;
   letter-spacing: 0.7px;
   color: #FFFFFF;
@@ -172,19 +172,19 @@ body {
     height: 500px;
   }
     .card-content {
-      width: 220px;
+      width: 230px;
       margin-left: 0;
       margin-top: 48.5px;
     }
     .card-description {
-      width: 220px;
+      width: 230px;
       margin-top: -1px;
     }
     .card-button {
       margin-top: 58px;
     }
   .c2-description, .c3-description {
-    width: 225px;
+    width: 233px;
   }
   .attribution {
     width: 300px;
