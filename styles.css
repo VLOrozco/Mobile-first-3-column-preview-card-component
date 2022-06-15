@@ -158,13 +158,16 @@ body {
 @media screen and (min-width: 700px) {
   .container {
     flex-direction: row;
-    height: 100vh;
+    height: 500px;
     width: 100vw;
   }
   /* CARD | LAYOUT */
   .card {
     height: 500px;
     width: 307px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .card1, .card2, .card3 {
     height: 100vh;
@@ -186,12 +189,6 @@ body {
   }
   .attribution {
     width: 300px;
-    bottom: 10px;
     font-size: 10px;
-    right: 3px;
   }
-
-
-
-
 }
